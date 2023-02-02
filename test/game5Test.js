@@ -29,8 +29,6 @@ describe('Game5', function () {
 
     const validWallet = wallet.connect(ethers.provider);
 
-    console.log(wallet);
-
     await signer.sendTransaction({
       to: address,
       value: ethers.utils.parseEther("1")
